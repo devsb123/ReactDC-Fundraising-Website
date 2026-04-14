@@ -1,0 +1,48 @@
+.donation-section {
+  padding: 72px 24px 80px;
+  background: var(--bg);
+}
+
+.section-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.section-title {
+  font-size: clamp(26px, 4vw, 38px);
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.02em;
+  margin-bottom: 14px;
+}
+
+.section-subtitle {
+  font-size: 17px;
+  color: var(--text-muted);
+  max-width: 580px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.one-time-note {
+  text-align: center;
+  margin-top: 48px;
+  font-size: 15px;
+  color: var(--text-muted);
+}
+
+.one-time-note a {
+  color: var(--red);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.one-time-note a:hover {
+  color: var(--red-dark);
+}

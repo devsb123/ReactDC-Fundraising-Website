@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx create-vite@latest . --template react-ts)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(cmd /c \"robocopy \\\\\"G:\\\\\\\\My Drive\\\\\\\\GMU\\\\\\\\Claude Code\\\\\\\\Claude Code - ReactDC Fundraising Tiers Website\\\\\" \\\\\"C:\\\\\\\\dev\\\\\\\\reactdc-fundraising\\\\\" /E /XD node_modules .git /NFL /NDL /NJH\")",
+      "Bash(echo \"exit:$?\")"
+    ]
+  }
+}
