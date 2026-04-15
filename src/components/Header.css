@@ -1,6 +1,6 @@
 .header {
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
+  background: #D9D9D9;
+  border-bottom: 1px solid #c0c0c0;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -40,12 +40,12 @@
 .header-nav a {
   font-size: 14px;
   font-weight: 600;
-  color: var(--text-muted);
+  color: #fff;
   transition: color 0.15s;
 }
 
 .header-nav a:hover {
-  color: var(--text);
+  color: rgba(255,255,255,0.8);
 }
 
 .nav-cta {

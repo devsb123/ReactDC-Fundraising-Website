@@ -6,20 +6,12 @@
 
 /* ── Hero ── */
 .hero {
-  background: linear-gradient(135deg, var(--red-dark) 0%, var(--red) 50%, #a01028 100%);
-  color: #fff;
+  background: #ffffff;
+  color: var(--text);
   padding: 80px 24px 60px;
   text-align: center;
   position: relative;
   overflow: hidden;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  pointer-events: none;
 }
 
 .hero-content {
@@ -30,8 +22,9 @@
 
 .hero-eyebrow {
   display: inline-block;
-  background: rgba(255,255,255,0.15);
-  border: 1px solid rgba(255,255,255,0.25);
+  background: var(--red-light);
+  border: 1px solid rgba(200,16,46,0.2);
+  color: var(--red-dark);
   border-radius: 100px;
   padding: 6px 18px;
   font-size: 13px;
@@ -56,7 +49,7 @@
 .hero-subtitle {
   font-size: 17px;
   line-height: 1.7;
-  color: rgba(255,255,255,0.88);
+  color: var(--text-muted);
   max-width: 540px;
   margin: 0 auto 40px;
 }
@@ -64,8 +57,8 @@
 /* Frequency Toggle */
 .frequency-toggle {
   display: inline-flex;
-  background: rgba(255,255,255,0.12);
-  border: 1px solid rgba(255,255,255,0.2);
+  background: #F0F0F0;
+  border: 1px solid #D0D0D0;
   border-radius: 100px;
   padding: 4px;
   gap: 4px;
@@ -77,7 +70,7 @@
   border-radius: 100px;
   font-size: 15px;
   font-weight: 600;
-  color: rgba(255,255,255,0.75);
+  color: var(--text-muted);
   background: transparent;
   transition: all 0.2s ease;
   position: relative;
@@ -87,9 +80,9 @@
 }
 
 .toggle-btn.active {
-  background: #fff;
-  color: var(--red);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  background: var(--red);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(200,16,46,0.3);
 }
 
 .toggle-badge {
@@ -115,7 +108,7 @@
   gap: 40px;
   margin-top: 52px;
   padding-top: 40px;
-  border-top: 1px solid rgba(255,255,255,0.2);
+  border-top: 1px solid var(--border);
   position: relative;
 }
 
@@ -128,21 +121,21 @@
 .stat-number {
   font-size: 32px;
   font-weight: 800;
-  color: #ffd166;
+  color: var(--red);
   line-height: 1;
 }
 
 .stat-label {
   font-size: 13px;
   font-weight: 500;
-  color: rgba(255,255,255,0.75);
+  color: var(--text-muted);
   letter-spacing: 0.02em;
 }
 
 .stat-divider {
   width: 1px;
   height: 48px;
-  background: rgba(255,255,255,0.25);
+  background: var(--border);
 }
 
 @media (max-width: 600px) {
