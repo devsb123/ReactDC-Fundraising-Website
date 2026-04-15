@@ -11,10 +11,7 @@ export default function Header() {
 
         <nav className="header-nav">
           <a href="https://www.reactdc.org/" target="_blank" rel="noopener noreferrer">
-            About
-          </a>
-          <a href="https://www.reactdc.org/" target="_blank" rel="noopener noreferrer">
-            Programs
+            ReactDC Home
           </a>
           <a href="#donate" className="nav-cta">
             Donate Now

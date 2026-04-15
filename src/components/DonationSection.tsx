@@ -7,9 +7,9 @@ interface Props {
   frequency: FrequencyType
 }
 
-// Placeholder payment links — swap these for real URLs when ready
-export const MONTHLY_LINK = 'https://donate.example.com/reactdc/monthly'
-export const YEARLY_LINK  = 'https://donate.example.com/reactdc/yearly'
+// Placeholder PayPal links — swap these for real campaign URLs when ready
+export const MONTHLY_LINK = 'https://www.paypal.com/donate/?hosted_button_id=REACTDC_MONTHLY'
+export const YEARLY_LINK  = 'https://www.paypal.com/donate/?hosted_button_id=REACTDC_YEARLY'
 
 export default function DonationSection({ frequency }: Props) {
   return (
